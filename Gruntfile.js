@@ -31,7 +31,6 @@ module.exports = function(grunt) {
                 },
                 files: { // Dictionary of files
                     'index.htm': 'src/index.htm' // 'destination': 'source'
-                    // 'dist/404.htm': 'src/404.htm' // 'destination': 'source'
                 }
             }
         },
@@ -73,16 +72,6 @@ module.exports = function(grunt) {
         },
 
         csslint: {
-            // options: {
-            //     csslintrc: '.csslintrc',
-            //     formatters: [{
-            //         id: 'junit-xml',
-            //         dest: 'report/csslint_junit.xml'
-            //     }, {
-            //         id: 'csslint-xml',
-            //         dest: 'report/csslint.xml'
-            //     }]
-            // },
             strict: {
                 options: {
                     import: 2
