@@ -99,7 +99,6 @@ module.exports = function(grunt) {
 
     });
 
-
     // Load Grunt tasks declared in the package.json file.  These plugins provide necessary tasks.  https://www.npmjs.com/package/load-grunt-tasks
     require( 'load-grunt-tasks' )(grunt, {
         pattern: ['grunt-*', '!grunt-template-jasmine-requirejs']
